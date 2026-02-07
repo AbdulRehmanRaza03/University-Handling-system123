@@ -22,7 +22,7 @@ USERS = {
     "Abdul": {"password": "12345", "role": "Student"}
 }
 
-# Session Initialization
+# Session Initialization 
 if "logged_in" not in st.session_state:
     st.session_state.logged_in = False
 
